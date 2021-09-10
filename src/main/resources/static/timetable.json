@@ -1,0 +1,362 @@
+[
+    {
+        "courseId": 123,
+        "courseName": "CS101",
+        "weekDay": "Monday",
+        "takenBy": "Andrew Symon",
+        "subject": "Data Science",
+        "startTime": "11:00",
+        "endTime": "12:00",
+        "classroom": {
+            "classroomId": 2
+        }
+    },
+    {
+        "courseId": 124,
+        "courseName": "CS101",
+        "weekDay": "Monday",
+        "takenBy": "Andrew Symon",
+        "subject": "Math",
+        "startTime": "12:00",
+        "endTime": "13:00",
+        "classroom": {
+            "classroomId": 2
+        }
+    },
+    {
+        "courseId": 125,
+        "courseName": "CS101",
+        "weekDay": "Monday",
+        "takenBy": "Andrew Symon",
+        "subject": "Networking",
+        "startTime": "13:00",
+        "endTime": "14:00",
+        "classroom": {
+            "classroomId": 3
+        }
+    },
+    {
+        "courseId": 126,
+        "courseName": "CS101",
+        "weekDay": "Tuesday",
+        "takenBy": "Andrew Symon",
+        "subject": "Computer Graphics",
+        "startTime": "11:00",
+        "endTime": "12:00",
+        "classroom": {
+            "classroomId": 4
+        }
+    },
+    {
+        "courseId": 127,
+        "courseName": "CS101",
+        "weekDay": "Tuesday",
+        "takenBy": "Andrew Symon",
+        "subject": "Digital",
+        "startTime": "12:00",
+        "endTime": "13:00",
+        "classroom": {
+            "classroomId": 5
+        }
+    },
+    {
+        "courseId": 128,
+        "courseName": "CS101",
+        "weekDay": "Tuesday",
+        "takenBy": "Andrew Symon",
+        "subject": "Math",
+        "startTime": "13:00",
+        "endTime": "14:00",
+        "classroom": {
+            "classroomId": 2
+        }
+    },
+    {
+        "courseId": 129,
+        "courseName": "CS101",
+        "weekDay": "Wednesday",
+        "takenBy": "Andrew Symon",
+        "subject": "Entrepreneurship",
+        "startTime": "11:00",
+        "endTime": "12:00",
+        "classroom": {
+            "classroomId": 6
+        }
+    },
+    {
+        "courseId": 130,
+        "courseName": "CS101",
+        "weekDay": "Wednesday",
+        "takenBy": "Andrew Symon",
+        "subject": "Data Science",
+        "startTime": "12:00",
+        "endTime": "13:00",
+        "classroom": {
+            "classroomId": 1
+        }
+    },
+    {
+        "courseId": 131,
+        "courseName": "CS101",
+        "weekDay": "Wednesday",
+        "takenBy": "Andrew Symon",
+        "subject": "Networking",
+        "startTime": "13:00",
+        "endTime": "14:00",
+        "classroom": {
+            "classroomId": 3
+        }
+    },
+    {
+        "courseId": 132,
+        "courseName": "CS101",
+        "weekDay": "Thursday",
+        "takenBy": "Andrew Symon",
+        "subject": "Math",
+        "startTime": "11:00",
+        "endTime": "12:00",
+        "classroom": {
+            "classroomId": 2
+        }
+    },
+    {
+        "courseId": 133,
+        "courseName": "CS101",
+        "weekDay": "Thursday",
+        "takenBy": "Andrew Symon",
+        "subject": "Circuit",
+        "startTime": "12:00",
+        "endTime": "13:00",
+        "classroom": {
+            "classroomId": 7
+        }
+    },
+    {
+        "courseId": 134,
+        "courseName": "CS101",
+        "weekDay": "Thursday",
+        "takenBy": "Andrew Symon",
+        "subject": "Computer Graphics",
+        "startTime": "13:00",
+        "endTime": "14:00",
+        "classroom": {
+            "classroomId": 4
+        }
+    },
+    {
+        "courseId": 135,
+        "courseName": "CS101",
+        "weekDay": "Friday",
+        "takenBy": "Andrew Symon",
+        "subject": "Digital",
+        "startTime": "11:00",
+        "endTime": "12:00",
+        "classroom": {
+            "classroomId": 5
+        }
+    },
+    {
+        "courseId": 136,
+        "courseName": "CS101",
+        "weekDay": "Friday",
+        "takenBy": "Andrew Symon",
+        "subject": "Circuit",
+        "startTime": "12:00",
+        "endTime": "13:00",
+        "classroom": {
+            "classroomId": 7
+        }
+    },
+    {
+        "courseId": 137,
+        "courseName": "CS101",
+        "weekDay": "Friday",
+        "takenBy": "Andrew Symon",
+        "subject": "Networking",
+        "startTime": "13:00",
+        "endTime": "14:00",
+        "classroom": {
+            "classroomId": 3
+        }
+    },
+    {
+        "courseId": 138,
+        "courseName": "ME101",
+        "weekDay": "Monday",
+        "takenBy": "Drew Matt",
+        "subject": "Material Science",
+        "startTime": "11:00",
+        "endTime": "12:00",
+        "classroom": {
+            "classroomId": 8
+        }
+    },
+    {
+        "courseId": 139,
+        "courseName": "ME101",
+        "weekDay": "Monday",
+        "takenBy": "Drew Matt",
+        "subject": "Strength of Materials",
+        "startTime": "12:00",
+        "endTime": "13:00",
+        "classroom": {
+            "classroomId": 9
+        }
+    },
+    {
+        "courseId": 140,
+        "courseName": "ME101",
+        "weekDay": "Monday",
+        "takenBy": "Drew Matt",
+        "subject": "Thermodynamics",
+        "startTime": "13:00",
+        "endTime": "14:00",
+        "classroom": {
+            "classroomId": 10
+        }
+    },
+    {
+        "courseId": 141,
+        "courseName": "ME101",
+        "weekDay": "Tuesday",
+        "takenBy": "Drew Matt",
+        "subject": "Aerodynamics",
+        "startTime": "11:00",
+        "endTime": "12:00",
+        "classroom": {
+            "classroomId": 11
+        }
+    },
+    {
+        "courseId": 142,
+        "courseName": "ME101",
+        "weekDay": "Tuesday",
+        "takenBy": "Drew Matt",
+        "subject": "Material Science",
+        "startTime": "12:00",
+        "endTime": "13:00",
+        "classroom": {
+            "classroomId": 8
+        }
+    },
+    {
+        "courseId": 143,
+        "courseName": "ME101",
+        "weekDay": "Tuesday",
+        "takenBy": "Drew Matt",
+        "subject": "Strength of Materials",
+        "startTime": "13:00",
+        "endTime": "14:00",
+        "classroom": {
+            "classroomId": 9
+        }
+    },
+    {
+        "courseId": 144,
+        "courseName": "ME101",
+        "weekDay": "Wednesday",
+        "takenBy": "Drew Matt",
+        "subject": "Material Science",
+        "startTime": "11:00",
+        "endTime": "12:00",
+        "classroom": {
+            "classroomId": 8
+        }
+    },
+    {
+        "courseId": 145,
+        "courseName": "ME101",
+        "weekDay": "Wednesday",
+        "takenBy": "Drew Matt",
+        "subject": "Strength of Materials",
+        "startTime": "12:00",
+        "endTime": "13:00",
+        "classroom": {
+            "classroomId": 9
+        }
+    },
+    {
+        "courseId": 146,
+        "courseName": "ME101",
+        "weekDay": "Wednesday",
+        "takenBy": "Drew Matt",
+        "subject": "Thermodynamics",
+        "startTime": "13:00",
+        "endTime": "14:00",
+        "classroom": {
+            "classroomId": 10
+        }
+    },
+    {
+        "courseId": 147,
+        "courseName": "ME101",
+        "weekDay": "Thursday",
+        "takenBy": "Drew Matt",
+        "subject": "Strength of Materials",
+        "startTime": "11:00",
+        "endTime": "12:00",
+        "classroom": {
+            "classroomId": 9
+        }
+    },
+    {
+        "courseId": 148,
+        "courseName": "ME101",
+        "weekDay": "Thursday",
+        "takenBy": "Drew Matt",
+        "subject": "Thermodynamics",
+        "startTime": "12:00",
+        "endTime": "13:00",
+        "classroom": {
+            "classroomId": 10
+        }
+    },
+    {
+        "courseId": 149,
+        "courseName": "ME101",
+        "weekDay": "Thursday",
+        "takenBy": "Drew Matt",
+        "subject": "Aerodynamics",
+        "startTime": "13:00",
+        "endTime": "14:00",
+        "classroom": {
+            "classroomId": 11
+        }
+    },
+    {
+        "courseId": 150,
+        "courseName": "ME101",
+        "weekDay": "Friday",
+        "takenBy": "Drew Matt",
+        "subject": "Material Science",
+        "startTime": "11:00",
+        "endTime": "12:00",
+        "classroom": {
+            "classroomId": 8
+        }
+    },
+    {
+        "courseId": 151,
+        "courseName": "ME101",
+        "weekDay": "Friday",
+        "takenBy": "Drew Matt",
+        "subject": "Strength of Materials",
+        "startTime": "12:00",
+        "endTime": "13:00",
+        "classroom": {
+            "classroomId": 9
+        }
+    },
+    {
+        "courseId": 152,
+        "courseName": "ME101",
+        "weekDay": "Friday",
+        "takenBy": "Drew Matt",
+        "subject": "Strength of Materials",
+        "startTime": "13:00",
+        "endTime": "14:00",
+        "classroom": {
+            "classroomId": 9
+        }
+    }
+]
