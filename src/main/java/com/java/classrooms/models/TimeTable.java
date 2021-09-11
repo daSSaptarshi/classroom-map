@@ -40,10 +40,10 @@ public class TimeTable {
     private String startTime;
     private String endTime;
     // private int classroomId;
-    @OneToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
-    @JoinColumn(name = "classroomIdFk", referencedColumnName = "id")
+    // @OneToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    // @JoinColumn(name = "classroomIdFk", referencedColumnName = "id")
     // @JsonIgnoreProperties("classroomId")
-    private Classroom classroom;
+    // private Classroom classroom;
 
     public TimeTable()
     {

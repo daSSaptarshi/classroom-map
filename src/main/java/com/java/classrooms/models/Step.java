@@ -34,10 +34,10 @@ public class Step
     @JsonAlias("isLandmark")
     @Column(name = "isLandmark")
     private boolean itLandmark;
-    @ManyToOne(cascade = CascadeType.REMOVE , fetch = FetchType.EAGER)
-    @JoinColumn(name = "directionIdFk", referencedColumnName = "id")
-    @JsonIgnore
-    private Direction stepDirection;
+    // @ManyToOne(cascade = CascadeType.REMOVE , fetch = FetchType.EAGER)
+    // @JoinColumn(name = "directionIdFk", referencedColumnName = "id")
+    // @JsonIgnore
+    // private Direction stepDirection;
     @ManyToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     @JoinColumn(name = "landmarkIdFk", referencedColumnName = "id")
     private Landmark landmark;
