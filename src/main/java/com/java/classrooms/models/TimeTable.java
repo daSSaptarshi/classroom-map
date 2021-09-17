@@ -4,6 +4,7 @@ import java.util.Map;
 import java.util.UUID;
 
 import javax.persistence.CascadeType;
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
@@ -39,11 +40,17 @@ public class TimeTable {
     private String subject;
     private String startTime;
     private String endTime;
+    @Column(name = "GroupName")
+    private String groupName;
+    @Column(name = "ClassType")
+    private String classType;
+    @Column(name = "WeekNumber")
+    private int weekNumber;
     // private int classroomId;
-    // @OneToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
-    // @JoinColumn(name = "classroomIdFk", referencedColumnName = "id")
+    @OneToOne(cascade = CascadeType.REMOVE, fetch = FetchType.EAGER)
+    @JoinColumn(name = "classroomIdFk", referencedColumnName = "id")
     // @JsonIgnoreProperties("classroomId")
-    // private Classroom classroom;
+    private Classroom classroom;
 
     public TimeTable()
     {
