@@ -40,11 +40,11 @@ public class TimeTable {
     private String subject;
     private String startTime;
     private String endTime;
-    @Column(name = "GroupName")
+    // @Column(name = "GroupName")
     private String groupName;
-    @Column(name = "ClassType")
+    // @Column(name = "ClassType")
     private String classType;
-    @Column(name = "WeekNumber")
+    // @Column(name = "WeekNumber")
     private int weekNumber;
     // private int classroomId;
     @OneToOne(cascade = CascadeType.REMOVE, fetch = FetchType.EAGER)
