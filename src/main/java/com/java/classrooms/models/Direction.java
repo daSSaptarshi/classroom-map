@@ -7,6 +7,7 @@ import java.util.UUID;
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
+import javax.persistence.ForeignKey;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -37,14 +38,14 @@ public class Direction
     private String name;
     private int likes;
     @ManyToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
-    @JoinColumn(name = "addedByFk", referencedColumnName = "id")
+    @JoinColumn(name = "addedByFk", referencedColumnName = "id", foreignKey = @ForeignKey(name = "FK_direction_student"))
     private Student student;
     // @JsonIgnore
     @OneToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
-    @JoinColumn(name = "classRoomIdFk", referencedColumnName = "id")
+    @JoinColumn(name = "classRoomIdFk", referencedColumnName = "id", foreignKey = @ForeignKey(name = "FK_direction_classroom"))
     private Classroom classroom;
     @OneToMany(targetEntity = Step.class, cascade = CascadeType.ALL, orphanRemoval = true)
-    @JoinColumn(name = "directionIdFk", referencedColumnName = "id")
+    @JoinColumn(name = "directionIdFk", referencedColumnName = "id", foreignKey = @ForeignKey(name = "FK_direction_step"))
     private List<Step> steps;
 
     public Direction()

@@ -7,6 +7,7 @@ import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
+import javax.persistence.ForeignKey;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -48,7 +49,7 @@ public class TimeTable {
     private int weekNumber;
     // private int classroomId;
     @OneToOne(cascade = CascadeType.REMOVE, fetch = FetchType.EAGER)
-    @JoinColumn(name = "classroomIdFk", referencedColumnName = "id")
+    @JoinColumn(name = "classroomIdFk", referencedColumnName = "id", foreignKey = @ForeignKey(name = "FK_timetable_class"))
     // @JsonIgnoreProperties("classroomId")
     private Classroom classroom;
 

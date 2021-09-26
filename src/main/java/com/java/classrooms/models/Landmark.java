@@ -6,6 +6,7 @@ import java.util.UUID;
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
+import javax.persistence.ForeignKey;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
@@ -31,7 +32,7 @@ public class Landmark {
     private String name;
     private String image;
     @ManyToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
-    @JoinColumn(name = "studentIdFk", referencedColumnName = "id")
+    @JoinColumn(name = "studentIdFk", referencedColumnName = "id", foreignKey = @ForeignKey(name = "FK_landmark_student"))
     private Student student;
     @JsonIgnore
     @OneToMany(mappedBy = "landmark")

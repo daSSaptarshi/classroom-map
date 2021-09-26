@@ -42,6 +42,6 @@ public class Classroom
     // @JsonIgnore
     // @OneToOne(mappedBy = "classroom", orphanRemoval = true)
     // private Direction classroomDirection;
-    // @OneToOne(mappedBy = "classroom", orphanRemoval = true)
+    // @OneToOne(mappedBy = "classroom", orphanRemoval = true)  
     // private TimeTable timeTable;
 }

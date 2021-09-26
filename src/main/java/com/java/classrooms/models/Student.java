@@ -13,6 +13,8 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
+import javax.persistence.Table;
+import javax.persistence.UniqueConstraint;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
@@ -28,6 +30,7 @@ import lombok.ToString;
 @Setter
 @ToString
 @Entity
+@Table(uniqueConstraints = @UniqueConstraint(name = "UK_emailid", columnNames = {"email_id"}))
 public class Student {
 
     @Id
@@ -36,7 +39,7 @@ public class Student {
     private int enrollmentYear;
     private String name;
     private String userType;
-    @Column(unique = true)
+    @Column(name = "email_id")
     private String emailId;
     private String pwd;
     // @JsonIgnore

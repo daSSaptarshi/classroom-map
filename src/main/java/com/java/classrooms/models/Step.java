@@ -6,6 +6,7 @@ import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
+import javax.persistence.ForeignKey;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.JoinTable;
@@ -39,7 +40,7 @@ public class Step
     // @JsonIgnore
     // private Direction stepDirection;
     @ManyToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
-    @JoinColumn(name = "landmarkIdFk", referencedColumnName = "id")
+    @JoinColumn(name = "landmarkIdFk", referencedColumnName = "id",foreignKey = @ForeignKey(name = "FK_step_landmark"))
     private Landmark landmark;
 
     public Step()
