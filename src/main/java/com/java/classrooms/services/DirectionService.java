@@ -1,9 +1,7 @@
 package com.java.classrooms.services;
 
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.List;
-import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 import com.java.classrooms.models.Classroom;
@@ -115,10 +113,7 @@ public class DirectionService {
 
     public Direction getByClassId(int id)
     {
-        Comparator<Step> stepComparator = (d1, d2) -> d1.getId().compareTo(d2.getId());
-        Direction direction = directionRepository.findByClassroom_Id(id);
-        direction.getSteps().sort(stepComparator);
-        return direction;
+        return directionRepository.findByClassroom_Id(id);
     }
 
     
