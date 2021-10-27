@@ -15,6 +15,7 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
+import javax.persistence.OrderColumn;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
@@ -46,6 +47,7 @@ public class Direction
     private Classroom classroom;
     @OneToMany(targetEntity = Step.class, cascade = CascadeType.ALL, orphanRemoval = true)
     @JoinColumn(name = "directionIdFk", referencedColumnName = "id", foreignKey = @ForeignKey(name = "FK_direction_step"))
+    @OrderColumn
     private List<Step> steps;
 
     public Direction()
